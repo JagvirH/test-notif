@@ -60,7 +60,7 @@ self.addEventListener("notificationclick", function (event) {
         }
 
         if (clients.openWindow) {
-          console.log("OPENWINDOW ON CLIENT");
+          console.log("OPENWINDOW ON CLIENT yes");
           return clients.openWindow(url);
         }
       })
