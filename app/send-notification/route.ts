@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
   try {
     await admin.messaging().send(payload);
 
-    return NextResponse.json({ success: true, message: "Notifvication sent!" });
+    return NextResponse.json({ success: true, message: "Notification sent!" });
   } catch (error) {
     return NextResponse.json({ success: false, error });
   }
