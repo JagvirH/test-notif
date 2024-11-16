@@ -25,7 +25,7 @@ if (!admin.apps.length) {
       credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
     });
   } catch (error) {
-    console.error("Firebase initialization error:", error);
+    console.error("Firebase initialization Error:", error);
   }
 }
 
