@@ -20,6 +20,7 @@ if (!admin.apps.length) {
     clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
   };
 
+
   try {
     admin.initializeApp({
       credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
